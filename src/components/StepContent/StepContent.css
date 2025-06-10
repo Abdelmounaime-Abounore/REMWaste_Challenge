@@ -1,0 +1,23 @@
+.step-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #FFFFFF;
+}
+
+.card-info-toast {
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  background-color: #323232;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: opacity 0.3s ease-in-out;
+}
+

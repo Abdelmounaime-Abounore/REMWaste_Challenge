@@ -1,0 +1,56 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh; 
+  font-family: Arial, sans-serif;
+}
+
+.onboarding {
+  display: flex;
+  flex-direction: column;
+  flex: 1; 
+  background-color: #F5F7FA;
+  min-height: 0; 
+}
+
+.stepper-container {
+  flex-shrink: 0; 
+  padding: 1rem;
+}
+
+.step-content-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  width: 75%;
+  margin: 0 auto;
+  min-height: 0;
+}
+
+.step-content {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+.footer-container {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #F5F5F5;
+  padding: 1rem;
+  border-top: 1px solid #f1eeee;
+}
+
+@media (max-width: 450px) {
+  .app-container {
+    height: 100%  ;
+  }
