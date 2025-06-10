@@ -21,7 +21,6 @@ This project provides a multi-step booking interface using a stepper. It allows 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Abdelmounaime-Abounore/REMWaste_Challenge.git
-   cd REMWaste_Challenge
 
 ## ▶️ How to Run the Project
 
@@ -34,13 +33,11 @@ After you clone the repository, follow these steps to get the project running lo
 
    code . 
 
-   Install all dependencies:
-
 2. **Install all dependencies:**
 
    ```bash
     npm install
 
 3. **Start the development server:**
-  ```bash
-  npm run dev
+    ```bash
+    npm run dev
