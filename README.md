@@ -37,7 +37,10 @@ After you clone the repository, follow these steps to get the project running lo
    Install all dependencies:
 
 2. **Install all dependencies:**
-npm install
+
+   ```bash
+    npm install
 
 3. **Start the development server:**
-npm run dev
+  ```bash
+  npm run dev
