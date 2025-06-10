@@ -1,3 +1,4 @@
+# This repository’s active development is done in the master branch.
 # Skip Booking UI
 
 A frontend React application for booking skip containers based on user location and preferences.
